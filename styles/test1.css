@@ -1,0 +1,7 @@
+/* 외부 스타일 시트 위치(별도의 .css 파일 생성) */
+/* 외부 스타일 시트에서는 HTML 태그를 <> 작성해선 안되며, 오직 선택자와 속성, 값만 작성할 수 있다.*/
+/* 선택자 {속성:값; 속성:값;} */
+body {background-color:lightslategray;}
+p {color:royalblue; background-color: lightgray;} 
+.info {color:brown;} /* 태그보다 속성이 더 우선순위가 높기 때문에 제외해도 가능하다 */
+#wrap {color:navy; background-color: lightskyblue;} /* class=.  /  id=# */
